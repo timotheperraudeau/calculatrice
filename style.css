@@ -54,24 +54,3 @@ button:hover{
     border-radius: 30px;
 }
 
-@media screen and (max-width: 500px){
-    .calculatrice{
-        width: 95%;
-        height: 95vh;
-        margin-top: 0px;
-    }
-    body{
-        display: flex;
-        align-items: center;
-    }
-    button{
-        width: 80px;
-        height: 80px;
-    }
-    .boutons{
-        width: 80%;
-    }
-    .affichage{
-        height: 50px;
-    }
-}
