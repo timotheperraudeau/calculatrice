@@ -1,0 +1,54 @@
+body{
+    background-image: url(back-science.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.calculatrice{
+    width: 300px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    background-color: grey;
+}
+.affichage{
+    width: 85%;
+    height: 40px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.boutons{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+button{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+button:hover{
+    background-color: orange;
+}
+
+#reset{
+    width: 120px;
+    border-radius: 30px;
+}
